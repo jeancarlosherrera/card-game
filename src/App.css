@@ -1,0 +1,10 @@
+.Pokecard {
+  width: 18rem;
+  box-shadow: 9px 5px 13px 3px rgba(0, 0, 0, 0.47);
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans';
+  font-weight: 600;
+}
