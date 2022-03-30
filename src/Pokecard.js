@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Card, ListGroup } from 'react-bootstrap';
-const IMG_API =
-  'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
+
+const IMG_API = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/';
+
+let padToThree = (num) => (num <= 999 ? `00${num}`.slice(-3) : num);
 
 class Pokecard extends Component {
   render() {
-    let imgSrc = `${IMG_API}${this.props.id}.png`;
+    let imgSrc = `${IMG_API}${padToThree(this.props.id)}.png`;
     return (
       <>
         <Card className='Pokecard m-3 p-3 rounded'>
