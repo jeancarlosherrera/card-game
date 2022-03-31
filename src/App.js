@@ -1,12 +1,12 @@
 import './App.css';
-import Pokedex from './Pokedex';
 import { Container } from 'react-bootstrap';
+import Pokegame from './Pokegame';
 
 function App() {
   return (
     <>
       <Container>
-        <Pokedex />
+        <Pokegame />
       </Container>
     </>
   );

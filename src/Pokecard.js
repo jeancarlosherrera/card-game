@@ -11,7 +11,9 @@ class Pokecard extends Component {
     return (
       <>
         <Card className='Pokecard m-3 p-3 rounded'>
-          <Card.Img src={imgSrc} alt={this.props.name} />
+          <div className='Pokecard-image rounded'>
+            <Card.Img src={imgSrc} alt={this.props.name} />
+          </div>
           <Card.Body>
             <Card.Title>{this.props.name}</Card.Title>
             <ListGroup variant='flush'>

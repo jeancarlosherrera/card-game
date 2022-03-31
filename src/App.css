@@ -2,9 +2,13 @@
   width: 18rem;
   box-shadow: 9px 5px 13px 3px rgba(0, 0, 0, 0.47);
 }
+.Pokedex-winner {
+  color: green;
+}
+.Pokedex-loser {
+  color: red;
+}
 
-h1 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans';
-  font-weight: 600;
+.Pokecard-image {
+  background-color: rgb(187, 211, 209);
 }
